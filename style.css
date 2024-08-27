@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: fantasy;
+}
+
+.wrapper {
+    max-width: 400px;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.515);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    backdrop-filter: blur(15px);
+    background-color: rgba(128, 128, 128, 0.225);
+
+    input,
+    button {
+        padding: 8px;
+    }
+
+    p {
+        padding: 8px;
+        /* border: 1px solid gray; */
+        transition: all 0.5s;
+        cursor: pointer;
+        background-color: white;
+
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+
+
+    .box {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        border: 1px solid gray;
+        margin-top: 30px;
+        padding: 10px;
+
+        height: 250px;
+        overflow-y: scroll;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+  
+
+}
+
+
+
+body {
+    background-image: url(https://images.pexels.com/photos/1205301/pexels-photo-1205301.jpeg?cs=srgb&dl=pexels-felixmittermeier-1205301.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+
+
+    display: flex;
+    align-items: center;
+}
